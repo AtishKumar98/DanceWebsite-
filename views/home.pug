@@ -1,0 +1,42 @@
+extends base.pug
+block scripts   
+    scripts(src = '/static/index.js') 
+block styles
+    style 
+        include ../static/style.css
+
+block content
+    section#introsection 
+                div#big  Dansation -A Dance studio
+                div#small Eat Sleep Dance Repeat
+    section#ourmission
+            h1 Classes -
+            div.card
+                h2  Adv batch 
+                div.card-img 
+                    img(src="/static/logo.png")
+                div.card-content
+                    p This is the best dance academy of the universe  
+            div.card
+                div.card-box
+                h2 Kids batch   
+                div.card-img 
+                    img(src="/static/kidslogo.png")
+                div.card-content
+                    p This is the best dance academy of the universe
+            div.card
+                h2 Ladies batch 
+                div.card-img 
+                    img(src="/static/ladies.png")
+                div.card-content
+                    p This is the best dance academy of the universe  
+    section#sponsorssection 
+            h1 section for sponsors
+                    div.box1 
+                        h1 Hello
+                    div.box3 
+                        h1 Hello
+                    div.box3 
+                        h1 Hello    
+            
+    

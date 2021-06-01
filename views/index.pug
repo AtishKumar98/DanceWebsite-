@@ -1,0 +1,59 @@
+doctype html
+html 
+    head
+        title This is New 
+        style 
+            include ../static/style.css
+                    
+    body 
+        nav#navbar 
+            
+            ul#navigation
+                li #[a(href = '/') Home]
+                li #[a(href = '/') About Us]
+                li #[a(href = '/') Service]
+                li #[a(href = '/') Class info] 
+                li #[a(href = '/') Contact Us]
+        section#introsection 
+                div#big  Dansation -A Dance studio
+                div#small Eat Sleep Dance Repeat
+        
+        
+        section#ourmission
+            
+            h1 Classes - 
+            
+            
+            div.card
+                h2  Adv batch 
+                div.card-img 
+                    img(src="/static/logo.png")
+                div.card-content
+                    p This is the best dance academy of the universe  
+            div.card
+                div.card-box
+                h2 Kids batch   
+                div.card-img 
+                    img(src="/static/kidslogo.png")
+                div.card-content
+                    p This is the best dance academy of the universe
+            div.card
+                h2 Ladies batch 
+                div.card-img 
+                    img(src="/static/ladies.png")
+                div.card-content
+                    p This is the best dance academy of the universe  
+
+        section#sponsorssection 
+            h1 section for sponsors
+                    div.box1 
+                        h1 Hello
+                    div.box3 
+                        h1 Hello
+                    div.box3 
+                        h1 Hello
+        section#footer 
+            h4 footer
+            script 
+
+        include ../static/index.js 
